@@ -12,6 +12,7 @@
     <uses-permission android:name="android.hardware.camera2.full" />
 
     <application
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
