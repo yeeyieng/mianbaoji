@@ -9,7 +9,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 // Class to get the retrofit client
 class RemoteDataSource {
     companion object{ // Define Base URL
-        private const val BASE_URL = "https://www.google.com/"
+        private const val BASE_URL = "https://www.google.com////"
     }
 
     fun<Api> buildApi( // Function that creates retrofit client and define fun type as API
