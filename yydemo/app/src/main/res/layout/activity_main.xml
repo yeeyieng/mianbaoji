@@ -21,7 +21,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView2"
-        android:name="com.example.yydemo.mylist.ui.auth.AuthFragment"
+        android:name="com.example.yydemo.mylist.ui.auth.AuthFragment1"
         android:layout_width="370dp"
         android:layout_height="592dp"
         app:layout_constraintBottom_toBottomOf="parent"

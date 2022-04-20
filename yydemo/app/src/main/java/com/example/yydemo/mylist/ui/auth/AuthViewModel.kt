@@ -19,13 +19,13 @@ class AuthViewModel(
 
     // Store login response as live data, live data cannot be changed directly
     val loginResponse: LiveData<Resource<LoginResponse>>
-        get()= _loginResponse
+        get() = _loginResponse
 
     fun login(
-        email: String,
+        username: String,
         password: String
     ) = viewModelScope.launch {
-        _loginResponse.value = repository.login(email,password)
+        _loginResponse.value = repository.login(username,password)
     }
 
 }

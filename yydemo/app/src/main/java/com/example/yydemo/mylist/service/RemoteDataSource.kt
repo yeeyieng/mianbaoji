@@ -9,7 +9,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 // Class to get the retrofit client
 class RemoteDataSource {
     companion object{ // Define Base URL
-        private const val BASE_URL = "http://5522-2001-e68-5404-8193-1e6f-65ff-fe83-5450.ngrok.io/api/be_User/"
+        private const val BASE_URL = "http://4050-2001-e68-5404-8193-1e6f-65ff-fe83-5450.ngrok.io"
     }
 
     fun<Api> buildApi( // Function that creates retrofit client and define fun type as API
